@@ -13,3 +13,9 @@ Scrape the covid-19 data
     docker build -t COVID-19-SCRAPPER .
 3) Now Run let's run the our index.js and scrape the data.
      docker run -p 8081:8081 COVID-19-SCRAPPER 
+     
+     
+ ## Open ended questions
+ 
+ 1) How will this application on daily basis?
+ 2) Do we use this app as the api service which call and save the data or send the csv?
